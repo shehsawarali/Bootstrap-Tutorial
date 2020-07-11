@@ -1,0 +1,10 @@
+.NavBarTitle{
+    font-family: "Besteam";
+    font-size: 1em;
+    color: white !important;
+  
+    &:hover {
+      /* color: white !important; */
+      opacity: 0.4 !important;
+    }
+  }

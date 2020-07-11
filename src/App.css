@@ -13,6 +13,24 @@
   }
 }
 
+@font-face {
+  font-family: "Besteam";
+  src: local("Besteam"),
+      url(./Fonts/Besteam.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: local("Myriad"),
+      url(./Fonts/Myriad.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost"),
+      url(./Fonts/Jost-Light.ttf) format("truetype");
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +53,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: black;
+  font-family: "Myriad";
+}
+
+.JumboHeading{
+  text-align: center;
+  padding-top: 4%;
+  font-size: 5em;
+  font-family: "Besteam";
+  position: relative;
+  z-index: -1;
+  color: #b6b6b3
+}
+
+.JumboSubheading{
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Myriad";
+  position: relative;
+  /* text-decoration: underline; */
 }
